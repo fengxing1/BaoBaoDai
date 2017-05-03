@@ -11,7 +11,7 @@
 #import "UIView+Extension.h"
 #import "JSPatchViewController.h"
 #import "MPLkdbViewController.h"
-#import "BaiDuMapViewController.h"
+//#import "BaiDuMapViewController.h"
 #import "MPQRCodeViewController.h"
 #import "MPUploadImagesViewController.h"
 #import "MPUploadWithPropressViewController.h"

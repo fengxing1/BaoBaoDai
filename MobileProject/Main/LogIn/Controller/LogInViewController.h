@@ -11,12 +11,12 @@
 #import "LogInApi.h"
 #import "LoginModel.h"
 
-#import "UMengSocialLoginViewController.h"
-#import "UMengSocialViewController.h"
+//#import "UMengSocialLoginViewController.h"
+//#import "UMengSocialViewController.h"
 #import "LoggerViewController.h"
-#import "BaiDuCoordinateModel.h"
-#import "BaiDuMapViewController.h"
-#import "JSPatchViewController.h"
+//#import "BaiDuCoordinateModel.h"
+//#import "BaiDuMapViewController.h"
+//#import "JSPatchViewController.h"
 
 @interface LogInViewController : UIViewController
 

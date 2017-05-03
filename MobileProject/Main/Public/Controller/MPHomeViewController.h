@@ -11,8 +11,8 @@
 #import "MPBaseNavigationController.h"
 
 //底部四个ViewController
-#import "UMengSocialLoginViewController.h"
-#import "UMengSocialViewController.h"
+//#import "UMengSocialLoginViewController.h"
+//#import "UMengSocialViewController.h"
 #import "MPDiscoveryViewController.h"
 #import "MPMoreViewController.h"
 #import "MPTheoryViewController.h"

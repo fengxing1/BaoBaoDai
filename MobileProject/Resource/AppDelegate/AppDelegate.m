@@ -19,17 +19,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
-    //启动友盟统计
-    [MPUmengHelper UMAnalyticStart];
-    
-    //地图定位初始化
-    [MPLocationManager installMapSDK];
-    
-    //热更新加载
-    [JSPatchHelper HSDevaluateScript];
-    
-    //科大讯飞 配置文件
-    [self makeConfiguration];
     
     //统一处理一些为数组、集合等对nil插入会引起闪退
     [SYSafeCategory callSafeCategory];
@@ -38,50 +27,6 @@
     [self configureBoardManager];
     
     //百度地图定位
-    [[MPLocationManager shareInstance] startBMKLocationWithReg:^(BMKUserLocation *loction, NSError *error) {
-        if (error) {
-            DDLogError(@"定位失败,失败原因：%@",error);
-        }
-        else
-        {
-            DDLogError(@"定位信息：%f,%f",loction.location.coordinate.latitude,loction.location.coordinate.longitude);
-            
-            CLGeocoder *geocoder=[[CLGeocoder alloc]init];
-            [geocoder reverseGeocodeLocation:loction.location completionHandler:^(NSArray<CLPlacemark *> * _Nullable placemarks, NSError * _Nullable error) {
-                
-                //处理手机语言 获得城市的名称（中文）
-                NSMutableArray *userDefaultLanguages = [[NSUserDefaults standardUserDefaults] objectForKey:@"AppleLanguages"];
-                NSString *currentLanguage = [userDefaultLanguages objectAtIndex:0];
-                //如果不是中文 则强制先转成中文 获得后再转成默认语言
-                if (![currentLanguage isEqualToString:@"zh-Hans"]&&![currentLanguage isEqualToString:@"zh-Hans-CN"]) {
-                    //IOS9前后区分
-                    if (isIOS9) {
-                        [[NSUserDefaults standardUserDefaults] setObject:[NSArray arrayWithObjects:@"zh-Hans-CN", nil] forKey:@"AppleLanguages"];
-                    }
-                    else
-                    {
-                        [[NSUserDefaults standardUserDefaults] setObject:[NSArray arrayWithObjects:@"zh-Hans", nil] forKey:@"AppleLanguages"];
-                    }
-                }
-                
-                //转换地理信息
-                if (placemarks.count>0) {
-                    CLPlacemark *placemark=[placemarks objectAtIndex:0];
-                    //获取城市
-                    NSString *city = placemark.locality;
-                    if (!city) {
-                        //四大直辖市的城市信息无法通过locality获得，只能通过获取省份的方法来获得（如果city为空，则可知为直辖市）
-                        city = placemark.administrativeArea;
-                    }
-                    
-                    NSLog(@"百度当前城市：[%@]",city);
-                    
-                    // 城市名传出去后,立即 Device 语言 还原为默认的语言
-                    [[NSUserDefaults standardUserDefaults] setObject:userDefaultLanguages forKey:@"AppleLanguages"];
-                }
-            }];
-        }
-    }];
     
     //系统自带定位
 //    [[MPLocationManager shareInstance]  startSystemLocationWithRes:^(CLLocation *loction, NSError *error) {
@@ -226,75 +171,10 @@
     completionHandler(UIBackgroundFetchResultNewData);
 }
 
-// 处理推送消息
-- (void)handlePushMessage:(NSDictionary *)dict notification:(UILocalNotification *)localNotification {
-    NSLog(@"开始处理从通知栏点击进来的推送消息");
-    
-    if ([UIApplication sharedApplication].applicationIconBadgeNumber != 0) {
-        if (localNotification) {
-            [[UIApplication sharedApplication] cancelLocalNotification:localNotification];
-        }
-        [UIApplication sharedApplication].applicationIconBadgeNumber -= 1;
-    }
-    else {
-        [[UIApplication sharedApplication] cancelAllLocalNotifications];
-        [UIApplication sharedApplication].applicationIconBadgeNumber = 0;
-    }
-}
-
-/** SDK收到透传消息回调 */
-- (void)GeTuiSdkDidReceivePayloadData:(NSData *)payloadData andTaskId:(NSString *)taskId andMsgId:(NSString *)msgId andOffLine:(BOOL)offLine fromGtAppId:(NSString *)appId {
-    
-    [self handlePushMessage:nil notification:nil];
-    // [4]: 收到个推消息
-    // 数据转换
-    NSString *payloadMsg = nil;
-    if (payloadData) {
-        payloadMsg = [[NSString alloc] initWithBytes:payloadData.bytes length:payloadData.length encoding:NSUTF8StringEncoding];
-    }
-    
-    // 控制台打印日志
-    NSString *msg = [NSString stringWithFormat:@"taskId=%@,messageId:%@,payloadMsg:%@%@", taskId, msgId, payloadMsg, offLine ? @"<离线消息>" : @""];
-    NSLog(@"\n>>[GTSdk ReceivePayload]:%@\n\n", msg);
-    
-    UIAlertView *alert=[[UIAlertView alloc]initWithTitle:@"您有一条新消息，走个推" message:msg delegate:self cancelButtonTitle:@"取消" otherButtonTitles:@"确定", nil];
-    [alert show];
-    
-    NSLog(@"\n>>>[GexinSdk ReceivePayload]:%@\n\n", msg);
-}
 
 
 
 
-
-
-- (void)applicationDidBecomeActive:(UIApplication *)application
-{
-
-    //热更新JS文件下载 最好做一个时间限制 比如隔多久进行下载(间隔一小时)
-    [JSPatchHelper loadJSPatch];
-}
-
-#pragma mark --- 配置文件
--(void)makeConfiguration
-{
-    //设置log等级，此处log为默认在app沙盒目录下的msc.log文件
-    [IFlySetting setLogFile:LVL_ALL];
-    
-    //输出在console的log开关
-    [IFlySetting showLogcat:YES];
-    
-    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES);
-    NSString *cachePath = [paths objectAtIndex:0];
-    //设置msc.log的保存路径
-    [IFlySetting setLogFilePath:cachePath];
-    
-    //创建语音配置,appid必须要传入，仅执行一次则可
-    NSString *initString = [[NSString alloc] initWithFormat:@"appid=%@,",USER_APPID];
-    
-    //所有服务启动前，需要确保执行createUtility
-    [IFlySpeechUtility createUtility:initString];
-}
 
 
 

@@ -63,8 +63,6 @@
 		3404DF5A1E973CE9002B9F94 /* MPUIBezierPathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3404DF581E973CE9002B9F94 /* MPUIBezierPathViewController.m */; };
 		340674201E2F6207008EF20F /* UIView+Empty.m in Sources */ = {isa = PBXBuildFile; fileRef = 3406741F1E2F6207008EF20F /* UIView+Empty.m */; };
 		340674211E2F6207008EF20F /* UIView+Empty.m in Sources */ = {isa = PBXBuildFile; fileRef = 3406741F1E2F6207008EF20F /* UIView+Empty.m */; };
-		340757071D1AE486004EFAB4 /* XAspect-UmengShareAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 340757061D1AE486004EFAB4 /* XAspect-UmengShareAppDelegate.m */; };
-		3408A9FB1E00D7DF001A0EC8 /* XAspect-GeTuiAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3452EBAD1D1A919D0001732E /* XAspect-GeTuiAppDelegate.m */; };
 		340AED351DF45A59007B5CEE /* MPKeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 340AED341DF45A59007B5CEE /* MPKeyboardViewController.m */; };
 		340AED361DF45A59007B5CEE /* MPKeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 340AED341DF45A59007B5CEE /* MPKeyboardViewController.m */; };
 		340BCD1B1D0EFF3B0093CC7D /* MPRequstFailedHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 340BCD1A1D0EFF3B0093CC7D /* MPRequstFailedHelper.m */; };
@@ -147,8 +145,6 @@
 		341094031D0E982100A8D63F /* JSPatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 341094011D0E982100A8D63F /* JSPatchViewController.m */; };
 		3411EEF51D6FEA3900A6C7F3 /* FaceRecognitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0BF40E1D6F33E2001E6F19 /* FaceRecognitionController.m */; };
 		3411EEF61D6FEA3C00A6C7F3 /* FaceStreamDetectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0BF4101D6F33E2001E6F19 /* FaceStreamDetectorViewController.m */; };
-		3411EEF81D6FEAB200A6C7F3 /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3411EEF71D6FEAB200A6C7F3 /* iflyMSC.framework */; };
-		3411EEF91D6FEAB400A6C7F3 /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3411EEF71D6FEAB200A6C7F3 /* iflyMSC.framework */; };
 		34153A531D76D5DE00D94F4A /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 34153A501D76D5DE00D94F4A /* UIImage+RoundedCorner.m */; };
 		34153A541D76D5DE00D94F4A /* UIView+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 34153A521D76D5DE00D94F4A /* UIView+RoundedCorner.m */; };
 		34153A551D76D5E800D94F4A /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 34153A501D76D5DE00D94F4A /* UIImage+RoundedCorner.m */; };
@@ -245,9 +241,6 @@
 		34420CBE1D0FAD10007D1AAC /* AdvertiseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34420CBC1D0FAD10007D1AAC /* AdvertiseView.m */; };
 		3452EB8B1D1A8BF00001732E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3452EB8A1D1A8BF00001732E /* AppDelegate.m */; };
 		3452EB901D1A8DAA0001732E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3452EB8A1D1A8BF00001732E /* AppDelegate.m */; };
-		3452EBAB1D1A90DD0001732E /* XAspect-LogAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3452EBAA1D1A90DD0001732E /* XAspect-LogAppDelegate.m */; };
-		3452EBAC1D1A90E00001732E /* XAspect-LogAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3452EBAA1D1A90DD0001732E /* XAspect-LogAppDelegate.m */; };
-		3452EBAE1D1A919D0001732E /* XAspect-GeTuiAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3452EBAD1D1A919D0001732E /* XAspect-GeTuiAppDelegate.m */; };
 		3461BD081DD5AA1E00F8FC14 /* MPMasonryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3461BD071DD5AA1E00F8FC14 /* MPMasonryViewController.m */; };
 		3461BD091DD5AA1E00F8FC14 /* MPMasonryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3461BD071DD5AA1E00F8FC14 /* MPMasonryViewController.m */; };
 		3461BD0C1DD5C4FE00F8FC14 /* MPMasonryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3461BD0B1DD5C4FE00F8FC14 /* MPMasonryView.m */; };
@@ -982,7 +975,6 @@
 		3404DF581E973CE9002B9F94 /* MPUIBezierPathViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPUIBezierPathViewController.m; sourceTree = "<group>"; };
 		3406741E1E2F6207008EF20F /* UIView+Empty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Empty.h"; sourceTree = "<group>"; };
 		3406741F1E2F6207008EF20F /* UIView+Empty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Empty.m"; sourceTree = "<group>"; };
-		340757061D1AE486004EFAB4 /* XAspect-UmengShareAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XAspect-UmengShareAppDelegate.m"; sourceTree = "<group>"; };
 		3408A9F91E00D7A0001A0EC8 /* MobileProject_Local.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MobileProject_Local.entitlements; sourceTree = SOURCE_ROOT; };
 		3408A9FA1E00D7A3001A0EC8 /* MobileProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MobileProject.entitlements; sourceTree = "<group>"; };
 		340AED331DF45A59007B5CEE /* MPKeyboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPKeyboardViewController.h; sourceTree = "<group>"; };
@@ -1053,7 +1045,6 @@
 		341093FF1D0E86DC00A8D63F /* MBConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBConstants.h; sourceTree = "<group>"; };
 		341094001D0E982100A8D63F /* JSPatchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSPatchViewController.h; sourceTree = "<group>"; };
 		341094011D0E982100A8D63F /* JSPatchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSPatchViewController.m; sourceTree = "<group>"; };
-		3411EEF71D6FEAB200A6C7F3 /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
 		34153A4F1D76D5DE00D94F4A /* UIImage+RoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RoundedCorner.h"; sourceTree = "<group>"; };
 		34153A501D76D5DE00D94F4A /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
 		34153A511D76D5DE00D94F4A /* UIView+RoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RoundedCorner.h"; sourceTree = "<group>"; };
@@ -1147,8 +1138,6 @@
 		34420CBC1D0FAD10007D1AAC /* AdvertiseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvertiseView.m; sourceTree = "<group>"; };
 		3452EB891D1A8BF00001732E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3452EB8A1D1A8BF00001732E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3452EBAA1D1A90DD0001732E /* XAspect-LogAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XAspect-LogAppDelegate.m"; sourceTree = "<group>"; };
-		3452EBAD1D1A919D0001732E /* XAspect-GeTuiAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XAspect-GeTuiAppDelegate.m"; sourceTree = "<group>"; };
 		3461BD061DD5AA1D00F8FC14 /* MPMasonryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPMasonryViewController.h; sourceTree = "<group>"; };
 		3461BD071DD5AA1E00F8FC14 /* MPMasonryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPMasonryViewController.m; sourceTree = "<group>"; };
 		3461BD0A1DD5C4FE00F8FC14 /* MPMasonryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPMasonryView.h; sourceTree = "<group>"; };
@@ -1818,7 +1807,6 @@
 				34E08B981C3BFB90005C6CA3 /* MapKit.framework in Frameworks */,
 				34E08B991C3BFB90005C6CA3 /* CoreLocation.framework in Frameworks */,
 				34E08B9A1C3BFB90005C6CA3 /* QuartzCore.framework in Frameworks */,
-				3411EEF91D6FEAB400A6C7F3 /* iflyMSC.framework in Frameworks */,
 				426EC478C80F00D762378976 /* libPods-MobileProjectDefault-MobileProject_Local.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1833,7 +1821,6 @@
 				34E8944A1C3B9A8F001327C8 /* CoreLocation.framework in Frameworks */,
 				348D00131DA8888000B890F4 /* JavaScriptCore.framework in Frameworks */,
 				34E894481C3B9A85001327C8 /* QuartzCore.framework in Frameworks */,
-				3411EEF81D6FEAB200A6C7F3 /* iflyMSC.framework in Frameworks */,
 				7D92D9CFC649C4B2022931C3 /* libPods-MobileProjectDefault-MobileProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2321,9 +2308,6 @@
 		3452EB881D1A8B720001732E /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
-				340757061D1AE486004EFAB4 /* XAspect-UmengShareAppDelegate.m */,
-				3452EBAD1D1A919D0001732E /* XAspect-GeTuiAppDelegate.m */,
-				3452EBAA1D1A90DD0001732E /* XAspect-LogAppDelegate.m */,
 				3452EB891D1A8BF00001732E /* AppDelegate.h */,
 				3452EB8A1D1A8BF00001732E /* AppDelegate.m */,
 			);
@@ -4109,7 +4093,6 @@
 		34F212F81C48B74A003AC13D /* SDKFile(集成) */ = {
 			isa = PBXGroup;
 			children = (
-				3411EEF71D6FEAB200A6C7F3 /* iflyMSC.framework */,
 			);
 			name = "SDKFile(集成)";
 			path = SDKFile;
@@ -4894,7 +4877,6 @@
 				34E08B541C3BFB90005C6CA3 /* UIViewController+MJPopupViewController.m in Sources */,
 				34FAEFBF1E5AD78000CED341 /* MPCalendarViewController.m in Sources */,
 				34A14EE41D40974100ACCCCC /* MPUploadImageService.m in Sources */,
-				3408A9FB1E00D7DF001A0EC8 /* XAspect-GeTuiAppDelegate.m in Sources */,
 				34E08B561C3BFB90005C6CA3 /* NetworkUnit.m in Sources */,
 				34FD22871D50813300096706 /* UIView+Extension.m in Sources */,
 				34E08B571C3BFB90005C6CA3 /* NSException+Trace.m in Sources */,
@@ -4920,7 +4902,6 @@
 				34213BE11E2C9B4D0065C675 /* UIImage+OuterCircle.m in Sources */,
 				34E08B6A1C3BFB90005C6CA3 /* UITableView+FDIndexPathHeightCache.m in Sources */,
 				34E08B6B1C3BFB90005C6CA3 /* UIResponder+UIAdapt.m in Sources */,
-				3452EBAC1D1A90E00001732E /* XAspect-LogAppDelegate.m in Sources */,
 				34EC96371C58C77400985444 /* LoggerViewController.m in Sources */,
 				342A8FA51D3F1D8B000C7B98 /* UINavigationController+JZExtension.m in Sources */,
 				34E08B6C1C3BFB90005C6CA3 /* NSDate+InternetDateTime.m in Sources */,
@@ -5079,7 +5060,6 @@
 				34E8940D1C3B9A03001327C8 /* UIScrollView+EmptyDataSet.m in Sources */,
 				3400E4CB1D35F0CE0056B673 /* MPLKDBUserModel.m in Sources */,
 				34E893D31C3B9A03001327C8 /* UIButton+MiddleAligning.m in Sources */,
-				340757071D1AE486004EFAB4 /* XAspect-UmengShareAppDelegate.m in Sources */,
 				34E894331C3B9A03001327C8 /* UIViewController+BackButtonTouched.m in Sources */,
 				34F49B321D262AA400FA003C /* MPHomeViewController.m in Sources */,
 				34E893F31C3B9A03001327C8 /* UIImageView+BetterFace.m in Sources */,
@@ -5115,7 +5095,6 @@
 				34E894291C3B9A03001327C8 /* UIView+Nib.m in Sources */,
 				34E893D71C3B9A03001327C8 /* UIColor+HEX.m in Sources */,
 				34E893711C3B9A03001327C8 /* NSData+Encrypt.m in Sources */,
-				3452EBAE1D1A919D0001732E /* XAspect-GeTuiAppDelegate.m in Sources */,
 				34E8940C1C3B9A03001327C8 /* UIScrollView+APParallaxHeader.m in Sources */,
 				34E893A81C3B9A03001327C8 /* NSString+Pinyin.m in Sources */,
 				3404DF591E973CE9002B9F94 /* MPUIBezierPathViewController.m in Sources */,
@@ -5344,7 +5323,6 @@
 				34E893C91C3B9A03001327C8 /* UIBarButtonItem+Action.m in Sources */,
 				34E893EF1C3B9A03001327C8 /* UIImage+Resize.m in Sources */,
 				34E893AA1C3B9A03001327C8 /* NSString+RemoveEmoji.m in Sources */,
-				3452EBAB1D1A90DD0001732E /* XAspect-LogAppDelegate.m in Sources */,
 				34E8949C1C3B9FC1001327C8 /* QBAssetsCollectionViewLayout.m in Sources */,
 				34E894121C3B9A03001327C8 /* UITableView+FDIndexPathHeightCache.m in Sources */,
 				34E894091C3B9A03001327C8 /* UIResponder+UIAdapt.m in Sources */,

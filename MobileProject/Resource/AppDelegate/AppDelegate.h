@@ -14,11 +14,11 @@
 #import "MPHomeViewController.h"
 #import "SYSafeCategory.h"
 #import "introductoryPagesHelper.h"
-#import "iflyMSC/IFlyFaceSDK.h"
+//#import "iflyMSC/IFlyFaceSDK.h"
 
 #import "MPAllModel.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate,UIAlertViewDelegate,GeTuiSdkDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate,UIAlertViewDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

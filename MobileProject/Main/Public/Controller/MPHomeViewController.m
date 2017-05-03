@@ -40,26 +40,24 @@
 
 //控制器设置
 - (NSArray *)mpViewControllers {
-    UMengSocialLoginViewController *firstViewController = [[UMengSocialLoginViewController alloc] init];
-    UINavigationController *firstNavigationController = [[MPBaseNavigationController alloc]
-                                                   initWithRootViewController:firstViewController];
+//    UMengSocialLoginViewController *firstViewController = [[UMengSocialLoginViewController alloc] init];
+//    UINavigationController *firstNavigationController = [[MPBaseNavigationController alloc]
+//                                                   initWithRootViewController:firstViewController];
     
     MPTheoryViewController *secondViewController = [[MPTheoryViewController alloc] init];
     UINavigationController *secondNavigationController = [[MPBaseNavigationController alloc]
                                                     initWithRootViewController:secondViewController];
     
-    UMengSocialViewController *thirdViewController = [[UMengSocialViewController alloc] init];
-    UINavigationController *thirdNavigationController = [[MPBaseNavigationController alloc]
-                                                   initWithRootViewController:thirdViewController];
+//    UMengSocialViewController *thirdViewController = [[UMengSocialViewController alloc] init];
+//    UINavigationController *thirdNavigationController = [[MPBaseNavigationController alloc]
+//                                                   initWithRootViewController:thirdViewController];
     
     MPMoreViewController *fourthViewController = [[MPMoreViewController alloc] init];
     UINavigationController *fourthNavigationController = [[MPBaseNavigationController alloc]
                                                     initWithRootViewController:fourthViewController];
     
     NSArray *viewControllers = @[
-                                 firstNavigationController,
                                  secondNavigationController,
-                                 thirdNavigationController,
                                  fourthNavigationController
                                  ];
     return viewControllers;
