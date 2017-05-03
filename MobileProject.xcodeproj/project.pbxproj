@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		095F98591EB97F1200836483 /* UIImage+compress.m in Sources */ = {isa = PBXBuildFile; fileRef = 095F98561EB97F1200836483 /* UIImage+compress.m */; };
+		095F985A1EB97F1200836483 /* UIImage+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 095F98581EB97F1200836483 /* UIImage+Extensions.m */; };
 		0C6DE0AD0AAE9E46CD23548B /* libPods-MobileProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8AD550FC0CDC01CC9FDB28 /* libPods-MobileProjectTests.a */; };
 		340050DE1E5C14AE00044EA1 /* UIApplication+Permissions.m in Sources */ = {isa = PBXBuildFile; fileRef = 340050DD1E5C14AE00044EA1 /* UIApplication+Permissions.m */; };
 		340067401E499C7000DAF86E /* MPAllModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3400673F1E499C7000DAF86E /* MPAllModel.m */; };
@@ -917,6 +919,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		095F98551EB97F1200836483 /* UIImage+compress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+compress.h"; sourceTree = "<group>"; };
+		095F98561EB97F1200836483 /* UIImage+compress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+compress.m"; sourceTree = "<group>"; };
+		095F98571EB97F1200836483 /* UIImage+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extensions.h"; sourceTree = "<group>"; };
+		095F98581EB97F1200836483 /* UIImage+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extensions.m"; sourceTree = "<group>"; };
 		17EE4EC42E510E1E13986DB8 /* libPods-MobileProjectDefault-MobileProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MobileProjectDefault-MobileProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		340050DC1E5C14AE00044EA1 /* UIApplication+Permissions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+Permissions.h"; sourceTree = "<group>"; };
 		340050DD1E5C14AE00044EA1 /* UIApplication+Permissions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+Permissions.m"; sourceTree = "<group>"; };
@@ -3407,6 +3413,10 @@
 		34E892831C3B9A03001327C8 /* UIImage */ = {
 			isa = PBXGroup;
 			children = (
+				095F98551EB97F1200836483 /* UIImage+compress.h */,
+				095F98561EB97F1200836483 /* UIImage+compress.m */,
+				095F98571EB97F1200836483 /* UIImage+Extensions.h */,
+				095F98581EB97F1200836483 /* UIImage+Extensions.m */,
 				34E892841C3B9A03001327C8 /* UIImage+Alpha.h */,
 				34E892851C3B9A03001327C8 /* UIImage+Alpha.m */,
 				34E892861C3B9A03001327C8 /* UIImage+animatedGIF.h */,
@@ -5361,11 +5371,13 @@
 				341DF0471E5541C70007907A /* MPViewControllerLifeCycle.m in Sources */,
 				341DF03F1E5541B20007907A /* UIButton+MPHock.m in Sources */,
 				34FE0B8D1D50FC2D00991E65 /* MPSolidColorViewController.m in Sources */,
+				095F98591EB97F1200836483 /* UIImage+compress.m in Sources */,
 				34E894391C3B9A03001327C8 /* UIViewController+StoreKit.m in Sources */,
 				34E893E01C3B9A03001327C8 /* UIFont+WDCustomLoader.m in Sources */,
 				340EB3021D66ACE300BF9222 /* MPFormViewController.m in Sources */,
 				34E893D01C3B9A03001327C8 /* UIButton+Block.m in Sources */,
 				34E8939D1C3B9A03001327C8 /* NSRunLoop+PerformBlock.m in Sources */,
+				095F985A1EB97F1200836483 /* UIImage+Extensions.m in Sources */,
 				34E894171C3B9A03001327C8 /* UITableViewCell+TS_delaysContentTouches.m in Sources */,
 				34E893C31C3B9A03001327C8 /* CATransaction+AnimateWithDuration.m in Sources */,
 				34FA475E1D50961600D5B729 /* MPChildrenViewController.m in Sources */,
