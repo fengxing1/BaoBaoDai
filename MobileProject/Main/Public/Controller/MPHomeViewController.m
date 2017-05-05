@@ -7,6 +7,8 @@
 //
 
 #import "MPHomeViewController.h"
+#import "HomeViewController.h"
+#import "CreditShowViewController.h"
 
 @implementation MPHomeViewController
 
@@ -40,24 +42,25 @@
 
 //控制器设置
 - (NSArray *)mpViewControllers {
-//    UMengSocialLoginViewController *firstViewController = [[UMengSocialLoginViewController alloc] init];
-//    UINavigationController *firstNavigationController = [[MPBaseNavigationController alloc]
-//                                                   initWithRootViewController:firstViewController];
+    HomeViewController *homeView = [[HomeViewController alloc] init];
+    UINavigationController *firstNavigationController = [[MPBaseNavigationController alloc] initWithRootViewController:homeView];
+    
     
     MPTheoryViewController *secondViewController = [[MPTheoryViewController alloc] init];
     UINavigationController *secondNavigationController = [[MPBaseNavigationController alloc]
                                                     initWithRootViewController:secondViewController];
     
-//    UMengSocialViewController *thirdViewController = [[UMengSocialViewController alloc] init];
-//    UINavigationController *thirdNavigationController = [[MPBaseNavigationController alloc]
-//                                                   initWithRootViewController:thirdViewController];
+    CreditShowViewController *creditShowVC = [[CreditShowViewController alloc] init];
+    UINavigationController *thirdNavigationController = [[MPBaseNavigationController alloc]
+                                                   initWithRootViewController:creditShowVC];
     
     MPMoreViewController *fourthViewController = [[MPMoreViewController alloc] init];
     UINavigationController *fourthNavigationController = [[MPBaseNavigationController alloc]
                                                     initWithRootViewController:fourthViewController];
     
-    NSArray *viewControllers = @[
+    NSArray *viewControllers = @[firstNavigationController,
                                  secondNavigationController,
+                                 thirdNavigationController,
                                  fourthNavigationController
                                  ];
     return viewControllers;

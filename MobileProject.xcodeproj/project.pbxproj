@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		095F98591EB97F1200836483 /* UIImage+compress.m in Sources */ = {isa = PBXBuildFile; fileRef = 095F98561EB97F1200836483 /* UIImage+compress.m */; };
 		095F985A1EB97F1200836483 /* UIImage+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 095F98581EB97F1200836483 /* UIImage+Extensions.m */; };
+		09C820B41EBBFF9100FF95E1 /* CreditShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C820B31EBBFF9100FF95E1 /* CreditShowViewController.m */; };
 		0C6DE0AD0AAE9E46CD23548B /* libPods-MobileProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8AD550FC0CDC01CC9FDB28 /* libPods-MobileProjectTests.a */; };
 		340050DE1E5C14AE00044EA1 /* UIApplication+Permissions.m in Sources */ = {isa = PBXBuildFile; fileRef = 340050DD1E5C14AE00044EA1 /* UIApplication+Permissions.m */; };
 		340067401E499C7000DAF86E /* MPAllModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3400673F1E499C7000DAF86E /* MPAllModel.m */; };
@@ -915,6 +916,8 @@
 		095F98561EB97F1200836483 /* UIImage+compress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+compress.m"; sourceTree = "<group>"; };
 		095F98571EB97F1200836483 /* UIImage+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extensions.h"; sourceTree = "<group>"; };
 		095F98581EB97F1200836483 /* UIImage+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extensions.m"; sourceTree = "<group>"; };
+		09C820B21EBBFF9100FF95E1 /* CreditShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreditShowViewController.h; sourceTree = "<group>"; };
+		09C820B31EBBFF9100FF95E1 /* CreditShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreditShowViewController.m; sourceTree = "<group>"; };
 		17EE4EC42E510E1E13986DB8 /* libPods-MobileProjectDefault-MobileProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MobileProjectDefault-MobileProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		340050DC1E5C14AE00044EA1 /* UIApplication+Permissions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+Permissions.h"; sourceTree = "<group>"; };
 		340050DD1E5C14AE00044EA1 /* UIApplication+Permissions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+Permissions.m"; sourceTree = "<group>"; };
@@ -1833,6 +1836,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09C820B01EBBFF2500FF95E1 /* Credit */ = {
+			isa = PBXGroup;
+			children = (
+				09C820B11EBBFF4E00FF95E1 /* Controller */,
+			);
+			path = Credit;
+			sourceTree = "<group>";
+		};
+		09C820B11EBBFF4E00FF95E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				09C820B21EBBFF9100FF95E1 /* CreditShowViewController.h */,
+				09C820B31EBBFF9100FF95E1 /* CreditShowViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		0A6C46FAAA892407CA090494 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -2428,6 +2448,7 @@
 		34E890B81C3B89D0001327C8 /* Main(主要) */ = {
 			isa = PBXGroup;
 			children = (
+				09C820B01EBBFF2500FF95E1 /* Credit */,
 				341DF01F1E553E5C0007907A /* Theory(基础) */,
 				34EC962F1C58C6C000985444 /* Logger(日志) */,
 				34EC96191C58A4EB00985444 /* Preview(预演) */,
@@ -5308,6 +5329,7 @@
 				34EC96361C58C77400985444 /* LoggerViewController.m in Sources */,
 				34FF0E3D1D586F320027EEAE /* YYFPSLabel.m in Sources */,
 				34E893791C3B9A03001327C8 /* NSDate+InternetDateTime.m in Sources */,
+				09C820B41EBBFF9100FF95E1 /* CreditShowViewController.m in Sources */,
 				34E893631C3B9A03001327C8 /* NSManagedObject+DictionaryExport.m in Sources */,
 				34E893CB1C3B9A03001327C8 /* UIBezierPath+Length.m in Sources */,
 				34FE0B911D50FF7C00991E65 /* MPHideNavigationViewController.m in Sources */,
@@ -5588,7 +5610,7 @@
 				INFOPLIST_FILE = MobileProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = wjy.com.MobileProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Baobaodai.p2p;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "760c276a-ffd4-48d6-932c-e00dd4be8c47";
 				PROVISIONING_PROFILE_SPECIFIER = MobileProject;
@@ -5621,7 +5643,7 @@
 				INFOPLIST_FILE = MobileProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = wjy.com.MobileProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Baobaodai.p2p;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "760c276a-ffd4-48d6-932c-e00dd4be8c47";
 				PROVISIONING_PROFILE_SPECIFIER = MobileProject;
