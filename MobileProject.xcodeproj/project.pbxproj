@@ -59,8 +59,6 @@
 		3404A4971E5EB317002673F9 /* MPEmployeeDesigner.m in Sources */ = {isa = PBXBuildFile; fileRef = 3404A4951E5EB317002673F9 /* MPEmployeeDesigner.m */; };
 		3404A49A1E5EB32E002673F9 /* MPEmployeeFinance.m in Sources */ = {isa = PBXBuildFile; fileRef = 3404A4991E5EB32E002673F9 /* MPEmployeeFinance.m */; };
 		3404A49B1E5EB32E002673F9 /* MPEmployeeFinance.m in Sources */ = {isa = PBXBuildFile; fileRef = 3404A4991E5EB32E002673F9 /* MPEmployeeFinance.m */; };
-		3404B5E01E1CE20000FB6C2A /* UIViewController+Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 3404B5DF1E1CE20000FB6C2A /* UIViewController+Swizzle.m */; };
-		3404B5E11E1CE20500FB6C2A /* UIViewController+Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 3404B5DF1E1CE20000FB6C2A /* UIViewController+Swizzle.m */; };
 		3404DF591E973CE9002B9F94 /* MPUIBezierPathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3404DF581E973CE9002B9F94 /* MPUIBezierPathViewController.m */; };
 		3404DF5A1E973CE9002B9F94 /* MPUIBezierPathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3404DF581E973CE9002B9F94 /* MPUIBezierPathViewController.m */; };
 		340674201E2F6207008EF20F /* UIView+Empty.m in Sources */ = {isa = PBXBuildFile; fileRef = 3406741F1E2F6207008EF20F /* UIView+Empty.m */; };
@@ -145,8 +143,6 @@
 		341093FE1D0E848F00A8D63F /* JSPatchHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 341093FC1D0E848F00A8D63F /* JSPatchHelper.m */; };
 		341094021D0E982100A8D63F /* JSPatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 341094011D0E982100A8D63F /* JSPatchViewController.m */; };
 		341094031D0E982100A8D63F /* JSPatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 341094011D0E982100A8D63F /* JSPatchViewController.m */; };
-		3411EEF51D6FEA3900A6C7F3 /* FaceRecognitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0BF40E1D6F33E2001E6F19 /* FaceRecognitionController.m */; };
-		3411EEF61D6FEA3C00A6C7F3 /* FaceStreamDetectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0BF4101D6F33E2001E6F19 /* FaceStreamDetectorViewController.m */; };
 		34153A531D76D5DE00D94F4A /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 34153A501D76D5DE00D94F4A /* UIImage+RoundedCorner.m */; };
 		34153A541D76D5DE00D94F4A /* UIView+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 34153A521D76D5DE00D94F4A /* UIView+RoundedCorner.m */; };
 		34153A551D76D5E800D94F4A /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 34153A501D76D5DE00D94F4A /* UIImage+RoundedCorner.m */; };
@@ -792,8 +788,6 @@
 		34E894D61C3BCD2F001327C8 /* LoginModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E894D51C3BCD2F001327C8 /* LoginModel.m */; };
 		34E95EBA1C4F82F600376777 /* UUInputAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E95EB91C4F82F600376777 /* UUInputAccessoryView.m */; };
 		34E95EBB1C4F82F700376777 /* UUInputAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E95EB91C4F82F600376777 /* UUInputAccessoryView.m */; };
-		34E9D84B1C59DB8800E98C2A /* BaiDuRouteAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E9D84A1C59DB8800E98C2A /* BaiDuRouteAnnotation.m */; };
-		34E9D84C1C59DB8800E98C2A /* BaiDuRouteAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E9D84A1C59DB8800E98C2A /* BaiDuRouteAnnotation.m */; };
 		34E9D84F1C59DD2800E98C2A /* BaiDuCoordinateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E9D84E1C59DD2800E98C2A /* BaiDuCoordinateModel.m */; };
 		34E9D8501C59DD2800E98C2A /* BaiDuCoordinateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E9D84E1C59DD2800E98C2A /* BaiDuCoordinateModel.m */; };
 		34EC806C1C472BF100C7E40A /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34EC806B1C472BF100C7E40A /* HomeViewController.m */; };
@@ -897,8 +891,6 @@
 		34FFF4F01E4BF8C200875ED9 /* MPTableSDWebImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FFF4EE1E4BF8C200875ED9 /* MPTableSDWebImageViewController.m */; };
 		426EC478C80F00D762378976 /* libPods-MobileProjectDefault-MobileProject_Local.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0AE21C88E51BA3C9370B2E /* libPods-MobileProjectDefault-MobileProject_Local.a */; };
 		7D92D9CFC649C4B2022931C3 /* libPods-MobileProjectDefault-MobileProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17EE4EC42E510E1E13986DB8 /* libPods-MobileProjectDefault-MobileProject.a */; };
-		FD0BF4111D6F33E2001E6F19 /* FaceRecognitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0BF40E1D6F33E2001E6F19 /* FaceRecognitionController.m */; };
-		FD0BF4121D6F33E2001E6F19 /* FaceStreamDetectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0BF4101D6F33E2001E6F19 /* FaceStreamDetectorViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -975,8 +967,6 @@
 		3404A4951E5EB317002673F9 /* MPEmployeeDesigner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPEmployeeDesigner.m; sourceTree = "<group>"; };
 		3404A4981E5EB32E002673F9 /* MPEmployeeFinance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPEmployeeFinance.h; sourceTree = "<group>"; };
 		3404A4991E5EB32E002673F9 /* MPEmployeeFinance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPEmployeeFinance.m; sourceTree = "<group>"; };
-		3404B5DE1E1CE20000FB6C2A /* UIViewController+Swizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Swizzle.h"; sourceTree = "<group>"; };
-		3404B5DF1E1CE20000FB6C2A /* UIViewController+Swizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Swizzle.m"; sourceTree = "<group>"; };
 		3404DF571E973CE9002B9F94 /* MPUIBezierPathViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPUIBezierPathViewController.h; sourceTree = "<group>"; };
 		3404DF581E973CE9002B9F94 /* MPUIBezierPathViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPUIBezierPathViewController.m; sourceTree = "<group>"; };
 		3406741E1E2F6207008EF20F /* UIView+Empty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Empty.h"; sourceTree = "<group>"; };
@@ -1687,8 +1677,6 @@
 		34E894D51C3BCD2F001327C8 /* LoginModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginModel.m; sourceTree = "<group>"; };
 		34E95EB81C4F82F600376777 /* UUInputAccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUInputAccessoryView.h; sourceTree = "<group>"; };
 		34E95EB91C4F82F600376777 /* UUInputAccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUInputAccessoryView.m; sourceTree = "<group>"; };
-		34E9D8491C59DB8800E98C2A /* BaiDuRouteAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiDuRouteAnnotation.h; sourceTree = "<group>"; };
-		34E9D84A1C59DB8800E98C2A /* BaiDuRouteAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaiDuRouteAnnotation.m; sourceTree = "<group>"; };
 		34E9D84D1C59DD2800E98C2A /* BaiDuCoordinateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiDuCoordinateModel.h; sourceTree = "<group>"; };
 		34E9D84E1C59DD2800E98C2A /* BaiDuCoordinateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaiDuCoordinateModel.m; sourceTree = "<group>"; };
 		34EC806A1C472BF100C7E40A /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
@@ -1796,10 +1784,6 @@
 		E55772F89C6713171843531A /* Pods-MobileProjectDefault-MobileProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileProjectDefault-MobileProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobileProjectDefault-MobileProject/Pods-MobileProjectDefault-MobileProject.debug.xcconfig"; sourceTree = "<group>"; };
 		EF0AE21C88E51BA3C9370B2E /* libPods-MobileProjectDefault-MobileProject_Local.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MobileProjectDefault-MobileProject_Local.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA8AD550FC0CDC01CC9FDB28 /* libPods-MobileProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MobileProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD0BF40D1D6F33E2001E6F19 /* FaceRecognitionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceRecognitionController.h; sourceTree = "<group>"; };
-		FD0BF40E1D6F33E2001E6F19 /* FaceRecognitionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceRecognitionController.m; sourceTree = "<group>"; };
-		FD0BF40F1D6F33E2001E6F19 /* FaceStreamDetectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceStreamDetectorViewController.h; sourceTree = "<group>"; };
-		FD0BF4101D6F33E2001E6F19 /* FaceStreamDetectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceStreamDetectorViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2723,8 +2707,6 @@
 		34E890CF1C3B8EE9001327C8 /* BaseOther */ = {
 			isa = PBXGroup;
 			children = (
-				3404B5DE1E1CE20000FB6C2A /* UIViewController+Swizzle.h */,
-				3404B5DF1E1CE20000FB6C2A /* UIViewController+Swizzle.m */,
 			);
 			path = BaseOther;
 			sourceTree = "<group>";
@@ -3991,10 +3973,6 @@
 				34FC67931D52EFFD0049F144 /* MPCustomAlertViewController.m */,
 				34FF0E361D5835C90027EEAE /* MPYYTextViewController.h */,
 				34FF0E371D5835C90027EEAE /* MPYYTextViewController.m */,
-				FD0BF40D1D6F33E2001E6F19 /* FaceRecognitionController.h */,
-				FD0BF40E1D6F33E2001E6F19 /* FaceRecognitionController.m */,
-				FD0BF40F1D6F33E2001E6F19 /* FaceStreamDetectorViewController.h */,
-				FD0BF4101D6F33E2001E6F19 /* FaceStreamDetectorViewController.m */,
 				342202401D62A8A1003F81B2 /* MPExpandHideViewController.h */,
 				342202411D62A8A1003F81B2 /* MPExpandHideViewController.m */,
 				340EB3001D66ACE300BF9222 /* MPFormViewController.h */,
@@ -4020,8 +3998,6 @@
 		34EC961C1C58A53100985444 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				34E9D8491C59DB8800E98C2A /* BaiDuRouteAnnotation.h */,
-				34E9D84A1C59DB8800E98C2A /* BaiDuRouteAnnotation.m */,
 				34E9D84D1C59DD2800E98C2A /* BaiDuCoordinateModel.h */,
 				34E9D84E1C59DD2800E98C2A /* BaiDuCoordinateModel.m */,
 				3400E4C91D35F0CE0056B673 /* MPLKDBUserModel.h */,
@@ -4595,7 +4571,6 @@
 				34E08A6C1C3BFB90005C6CA3 /* NSObject+AssociatedObject.m in Sources */,
 				34E08A6D1C3BFB90005C6CA3 /* UIView+ViewController.m in Sources */,
 				34E08A6E1C3BFB90005C6CA3 /* UIViewController+BackButtonItemTitle.m in Sources */,
-				3404B5E11E1CE20500FB6C2A /* UIViewController+Swizzle.m in Sources */,
 				341CA9101D3097AF008B85D3 /* MBProgressHUD+MP.m in Sources */,
 				34E08A6F1C3BFB90005C6CA3 /* UIViewController+Visible.m in Sources */,
 				34E08A701C3BFB90005C6CA3 /* MKMapView+ZoomLevel.m in Sources */,
@@ -4836,7 +4811,6 @@
 				34E08B2C1C3BFB90005C6CA3 /* LogInViewController.m in Sources */,
 				34E08B2D1C3BFB90005C6CA3 /* QBImagePickerController.m in Sources */,
 				34E08B2E1C3BFB90005C6CA3 /* QBAssetsCollectionVideoIndicatorView.m in Sources */,
-				3411EEF61D6FEA3C00A6C7F3 /* FaceStreamDetectorViewController.m in Sources */,
 				34E08B2F1C3BFB90005C6CA3 /* CAAnimation+Blocks.m in Sources */,
 				34E08B301C3BFB90005C6CA3 /* UIView+Recursion.m in Sources */,
 				34E08B321C3BFB90005C6CA3 /* NetWorkBaseUrlConfig.m in Sources */,
@@ -4923,11 +4897,9 @@
 				34E08B741C3BFB90005C6CA3 /* UIView+Constraints.m in Sources */,
 				34799A621CD34C5A003518C5 /* UICKeyChainStore.m in Sources */,
 				34E08B761C3BFB90005C6CA3 /* NSString+Score.m in Sources */,
-				34E9D84C1C59DB8800E98C2A /* BaiDuRouteAnnotation.m in Sources */,
 				348D00101DA8853800B890F4 /* MPJavaScriptCoreViewController.m in Sources */,
 				340199F91D6561C3001C97E9 /* GCDTimer.m in Sources */,
 				34E08B771C3BFB90005C6CA3 /* CAShapeLayer+UIBezierPath.m in Sources */,
-				3411EEF51D6FEA3900A6C7F3 /* FaceRecognitionController.m in Sources */,
 				340BCD691D0F04DB0093CC7D /* imageCompressHelper.m in Sources */,
 				341DF06A1E558F650007907A /* MPOperation.m in Sources */,
 				34F72FD81E8C95FB002B0709 /* YTKBatchRequestAgent.m in Sources */,
@@ -5000,7 +4972,6 @@
 				34E893941C3B9A03001327C8 /* NSObject+AssociatedObject.m in Sources */,
 				34E8942F1C3B9A03001327C8 /* UIView+ViewController.m in Sources */,
 				3400E4C31D35EEF00056B673 /* MPLKDBHelper.m in Sources */,
-				FD0BF4111D6F33E2001E6F19 /* FaceRecognitionController.m in Sources */,
 				34E894321C3B9A03001327C8 /* UIViewController+BackButtonItemTitle.m in Sources */,
 				34E8943B1C3B9A03001327C8 /* UIViewController+Visible.m in Sources */,
 				34E893BD1C3B9A03001327C8 /* MKMapView+ZoomLevel.m in Sources */,
@@ -5149,7 +5120,6 @@
 				340C85311E723BF400B59C2E /* MPOraceDataBase.m in Sources */,
 				34FA47621D50A61200D5B729 /* MPBlankPageViewController.m in Sources */,
 				340050DE1E5C14AE00044EA1 /* UIApplication+Permissions.m in Sources */,
-				FD0BF4121D6F33E2001E6F19 /* FaceStreamDetectorViewController.m in Sources */,
 				34E893701C3B9A03001327C8 /* NSData+Base64.m in Sources */,
 				341DF0591E5546410007907A /* MPThreadViewController.m in Sources */,
 				34E893621C3B9A03001327C8 /* NSFetchRequest+Extensions.m in Sources */,
@@ -5172,7 +5142,6 @@
 				3400E4BF1D35EDF50056B673 /* NSObject+PrintSQL.m in Sources */,
 				34E893F41C3B9A03001327C8 /* UIImageView+FaceAwareFill.m in Sources */,
 				34E893831C3B9A03001327C8 /* NSDictionary+URL.m in Sources */,
-				3404B5E01E1CE20000FB6C2A /* UIViewController+Swizzle.m in Sources */,
 				34E893651C3B9A03001327C8 /* NSManagedObjectContext+Extensions.m in Sources */,
 				34F72FD41E8C95E9002B0709 /* YTKNetworkPrivate.m in Sources */,
 				34FC67911D52EE8B0049F144 /* WJYAlertView.m in Sources */,
@@ -5347,7 +5316,6 @@
 				34FC67941D52EFFD0049F144 /* MPCustomAlertViewController.m in Sources */,
 				34799A611CD34C5A003518C5 /* UICKeyChainStore.m in Sources */,
 				34E893AC1C3B9A03001327C8 /* NSString+Score.m in Sources */,
-				34E9D84B1C59DB8800E98C2A /* BaiDuRouteAnnotation.m in Sources */,
 				34E893C21C3B9A03001327C8 /* CAShapeLayer+UIBezierPath.m in Sources */,
 				341DF0651E5547320007907A /* MPLockViewController.m in Sources */,
 				3425826E1D379D2C003906BB /* introductoryPagesHelper.m in Sources */,

@@ -104,8 +104,8 @@
         }
             case 2:
         {
-            BaiDuMapViewController *vc=[[BaiDuMapViewController alloc]init];
-            [self.navigationController pushViewController:vc animated:YES];
+//            BaiDuMapViewController *vc=[[BaiDuMapViewController alloc]init];
+//            [self.navigationController pushViewController:vc animated:YES];
             break;
         }
             case 3:
